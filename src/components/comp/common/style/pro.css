@@ -1,0 +1,30 @@
+.my-flipster{
+	margin: 0%;
+	padding: 0%;
+	height: 100%;
+}
+.flipbox{
+	vertical-align: middle;
+}
+
+.flipster__item img{
+	width: 70vw;
+	max-height: 55vh;
+	min-height: 30vh;
+}
+
+.prodep{
+	padding: 0%;
+	margin: 0%;
+	text-align: center;
+	color:green;
+	font-weight: bolder;
+}
+
+.prodes{
+	color:white;
+	font-weight: bolder;
+	width:50vw;
+	text-align: center;
+	margin:0 auto;
+}

@@ -1,0 +1,32 @@
+#tit {
+  color: white;
+  text-decoration: underline;
+}
+#title-box {
+  margin: 0% auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #191575;
+  width: fit-content;
+  padding: 1% 4%;
+  border-radius: 80px;
+  padding: 1em;
+}
+.bi-arrow-left-circle-fill, .bi-arrow-right-circle-fill{
+  font-size: 0.9em !important;
+}
+.title-txt {
+  margin: 3px;
+  font-size: 3em;
+}
+
+@media (max-width:560px) {
+    .bi-arrow-left-circle-fill, .bi-arrow-right-circle-fill{
+      font-size: 1em !important;
+  }
+  .title-txt {
+  font-size: 2em;
+}
+}

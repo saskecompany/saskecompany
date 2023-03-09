@@ -1,0 +1,21 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  background-image: url(./media/mainscreenimgs/back.png);
+  background-repeat: round;
+  background-size:cover;
+  color: #fff;
+  overflow-x: hidden;
+  
+}
+.hide{
+  visibility: hidden!important;  
+}
+.clearfloat{
+    clear: both;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}

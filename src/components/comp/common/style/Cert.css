@@ -1,0 +1,61 @@
+.certimages img{
+	height: 70vh;
+	border-radius: 30%;
+	padding: 5%;
+}
+
+.certimages span{
+	position: absolute;
+	top: 20%;
+	transition: 3s;
+	animation: slideshowX calc(var(--i)*3s) infinite;
+}
+.certimages span img:hover .certimages span img{
+	z-index: 100;
+}
+.certtext{
+	color: white;
+	font-size: x-large;
+	font-weight: bolder;
+	background-color: rgba(0, 0, 0);
+	width: fit-content;
+}
+@media screen and (max-width:700px) {
+	.certimages img{
+		height: 38vh;
+	}
+	.certimages span{
+		inset: 0;
+		animation: slideshowY calc(var(--i)*3s) infinite;
+	}
+}
+
+@keyframes slideshowX {
+	0%{
+		transform:translateX(0px);
+		z-index: 1;
+	}
+	50%{
+		transform:translateX(1000px);
+		z-index: 0;
+	}
+	100%{
+		transform:translateX(0px);
+		z-index: 1;
+	}
+}
+
+@keyframes slideshowY {
+	0%{
+		transform:translateY(0px);
+		z-index: 1;
+	}
+	50%{
+		transform:translateY(1000px);
+		z-index: 0;
+	}
+	100%{
+		transform:translateY(0px);
+		z-index: 1;
+	}
+}

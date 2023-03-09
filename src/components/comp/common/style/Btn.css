@@ -1,0 +1,59 @@
+button{
+    background-color: transparent;
+    border: none;
+}
+#curs-box{
+    position: fixed;
+    background-color: #191c76a6;
+    width: fit-content;
+    backdrop-filter: blur(4.4px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1)
+                ,inset 5px 0px 40px 0px #fff;
+    border: 1px solid rgba(25, 28, 117, 0.99);
+    padding: 0% 2%;
+    border-radius: 90px;
+    bottom: 0vh;
+    font-size: 2em;
+    z-index: 10000;
+}
+
+
+.bi:hover{
+    color: black;
+    font-size: 2em;
+    transform: rotate(180deg);
+}
+
+.carousel-control-prev, .carousel-control-next{
+    margin: 40px;
+}
+
+.carousel-indicators{
+    position: static;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1vh 0 0 0;
+}
+
+.carousel-indicators > button{
+    width: 2.5vh!important;
+    height: 2.5vh!important;
+    background-color: transparent !important;
+    border: 5px solid #ffffff !important;
+    border-radius: 50%;
+}
+
+@media (max-width:620px) {
+    #curs-box{
+    display: none;
+}
+.carousel-indicators > button{
+    height: 1vw!important;
+    width: 1vw!important;
+    background-color: transparent !important;
+    border: 5px solid #ffffff !important;
+    border-radius: 50%;
+}
+}

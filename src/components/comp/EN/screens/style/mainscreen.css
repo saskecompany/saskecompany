@@ -1,0 +1,22 @@
+.bi{
+    color:#fff;
+    font-size: 5vw;
+    transition: .8s;
+}
+.bi:hover{
+    font-size: 6vw;
+}
+
+.bi-arrow-right-circle-fill:hover, .bi-arrow-left-circle-fill:hover{
+    font-size: 6vw;
+    color: green!important;
+}
+
+.bi-arrow-right-circle-fill:before, .bi-arrow-left-circle-fill:before {
+    transition:0.8s;
+
+}
+.bi-arrow-right-circle-fill:hover:before, .bi-arrow-left-circle-fill:hover:before {
+    transform: rotate(180deg);
+
+}
