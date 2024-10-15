@@ -8,8 +8,6 @@
 
 # 💫 About Us:
 
-<br/>
-<br/>
 <div align="center">
   
 ## Hi 👋, there
